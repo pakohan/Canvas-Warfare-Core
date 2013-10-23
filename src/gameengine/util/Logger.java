@@ -7,6 +7,6 @@ public final class Logger {
     }
 
     public static void debug(final String source, final String message) {
-        android.util.Log.d("" + source, "" + message);
+        System.out.println(source + "" + message);
     }
 }
